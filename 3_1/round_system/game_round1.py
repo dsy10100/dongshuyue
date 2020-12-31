@@ -14,6 +14,14 @@ def game():
     your_power = 199
     my_final_hp = my_hp - your_power
     enemy_final_hp = your_hp - my_power
+    # 自己的血量大于敌人血量
+    if my_final_hp > enemy_final_hp:
+        print("我赢了")
+    else:
+        print("你赢了")
+
+
+game()
     # 三目运算等同于下面的if-else，只是语法更简洁
     # print("我赢了") if my_final_hp > enemy_final_hp else print("你赢了")
     # 判断条件 if 执行结果2 else 执行结果2
@@ -24,12 +32,3 @@ def game():
 
     # 快捷键： ctrl +d  复制当前行到下一行
     # 快捷键： ctrl+/ 复制当前行到下一行
-
-    # 自己的血量大于敌人血量
-    if my_final_hp > enemy_final_hp:
-        print("我赢了")
-    else:
-        print("你赢了")
-
-
-game()
