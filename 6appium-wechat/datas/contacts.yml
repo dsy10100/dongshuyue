@@ -1,0 +1,7 @@
+addMem:
+  - ["liming", "男", "13269695888"]
+  - ["lihua", "女", "13269695889"]
+
+delMem:
+  - "liming"
+  - "lihua"
